@@ -1,0 +1,114 @@
+flutter run -d web-server --web-port 5555
+Compiling your contracts...
+===========================
+✖ Fetching solc version list from solc-bin. Attempt #1
+✓ Fetching solc version list from solc-bin. Attempt #2
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'sepolia-fork'
+> Network id:      11155111
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        5408064
+   > block timestamp:     1709470621
+   > account:             0x47aF8429044e4ED303c47b4134D0EfEc21cef24e
+   > balance:             0.499018072301001493
+   > gas used:            188303 (0x2df8f)
+   > gas price:           2.602212709 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000490004459742827 ETH
+
+   -------------------------------------
+   > Total cost:     0.000490004459742827 ETH
+
+
+2_deploy_migration.js
+=====================
+
+   Deploying 'Land'
+   ----------------
+   > block number:        5408066
+   > block timestamp:     1709470628
+   > account:             0x47aF8429044e4ED303c47b4134D0EfEc21cef24e
+   > balance:             0.488589339455451757
+   > gas used:            3998671 (0x3d03cf)
+   > gas price:           2.578431096 gwei
+   > value sent:          0 ETH
+   > total cost:          0.010310297649073416 ETH
+
+   -------------------------------------
+   > Total cost:     0.010310297649073416 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.010800302108816243 ETH
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'sepolia'
+> Network id:      11155111
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x04c2f00551ba2740b25b380c9cb58e4c035086992e4c6e02b07b9ab5e5abd3fb
+   > Blocks: 2            Seconds: 19
+   > contract address:    0xB275c7B97784b6404B8D45A17716c6D33848e9bf
+   > block number:        5408076
+   > block timestamp:     1709470680
+   > account:             0x47aF8429044e4ED303c47b4134D0EfEc21cef24e
+   > balance:             0.499016515585412859
+   > gas used:            188303 (0x2df8f)
+   > gas price:           2.610479787 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000491561175331461 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000491561175331461 ETH
+
+
+2_deploy_migration.js
+=====================
+
+   Deploying 'Land'
+   ----------------
+   > transaction hash:    0x631f778126e9604d9d1d7540f6c929378ef39cb113f91b962405429d011cccda
+   > Blocks: 2            Seconds: 24
+   > contract address:    0x94b7CE89a98572C0Bf6A7baB91b530Ea977Ddacd
+   > block number:        5408081
+   > block timestamp:     1709470752
+   > account:             0x47aF8429044e4ED303c47b4134D0EfEc21cef24e
+   > balance:             0.48842488627280073
+   > gas used:            3998671 (0x3d03cf)
+   > gas price:           2.618882889 gwei
+   > value sent:          0 ETH
+   > total cost:          0.010472051060640519 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.010472051060640519 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.01096361223597198 ETH
